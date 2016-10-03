@@ -17,8 +17,14 @@
             "email": "klimov.paul@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/fenixter/yii2-httpclient"
+        }
+    ],
     "require": {
-        "yiisoft/yii2-httpclient": "~2.0.1"
+        "yiisoft/yii2-httpclient": "dev-master"
     },
     "autoload": {
         "psr-4": { "yii\\authclient\\": "" }
